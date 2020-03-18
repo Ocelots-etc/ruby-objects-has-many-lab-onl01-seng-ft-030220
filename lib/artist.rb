@@ -1,8 +1,9 @@
 class Artist
-
+require 'pry'
   attr_accessor :name, :songs, :song
 
   def initialize(name)
+    binding.pry
     @name = name
   end
 
